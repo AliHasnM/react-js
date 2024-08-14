@@ -1,9 +1,9 @@
-import BG_Changer from "./components/BG_Changer";
+import Password_Generator from "./components/Password_Generator";
 import "./index.css";
 const App = () => {
   return (
     <>
-      <BG_Changer />
+      <Password_Generator />
     </>
   );
 };
