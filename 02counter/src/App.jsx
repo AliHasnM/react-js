@@ -1,9 +1,9 @@
-import Password_Generator from "./components/Password_Generator";
+import Currency_Convertor from "./components/Currency_Convertor";
 import "./index.css";
 const App = () => {
   return (
     <>
-      <Password_Generator />
+      <Currency_Convertor />
     </>
   );
 };
