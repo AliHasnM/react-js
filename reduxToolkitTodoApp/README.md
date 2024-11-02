@@ -28,7 +28,7 @@ To run this project, you should have:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/redux-toolkit-todo-app.git
+   git clone https://github.com/AliHasnM/react-js/tree/main/reduxToolkitTodoApp.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -42,7 +42,7 @@ To run this project, you should have:
    ```bash
    npm start
    ```
-5. Open your browser and navigate to `http://localhost:3000`.
+5. Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
