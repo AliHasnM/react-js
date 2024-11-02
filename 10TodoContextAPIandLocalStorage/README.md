@@ -1,7 +1,3 @@
-Here’s a complete README file that explains **Context API** and **Local Storage** in the context of your code, with explanations for each part of the code, so anyone can understand how these concepts work.
-
----
-
 # Todo App using Context API and Local Storage
 
 This project is a **Todo App** built using **React**, **Context API**, and **Local Storage**. It demonstrates how to manage global state using Context API and how to persist data using Local Storage. The app allows users to add, update, delete, and mark todos as completed or incomplete.
@@ -238,5 +234,5 @@ export default TodoItem;
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AliHasnM
+   git clone https://github.com/AliHasnM/react-js/tree/main/10TodoContextAPIandLocalStorage
    ```
