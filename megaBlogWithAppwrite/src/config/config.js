@@ -14,3 +14,7 @@ const config = {
 
 // Exports the config object to be used throughout the app
 export default config;
+
+// Reason and Why Use
+// Reason: Centralizes Appwrite configuration, making it easy to manage API settings in one place.
+// Why use: Simplifies connecting to Appwrite services, especially for large apps, by keeping credentials organized and consistent.

@@ -79,3 +79,9 @@ export class AuthService {
 const authService = new AuthService();
 
 export default authService; // Exported for use in other parts of the app
+
+// Reason and Why Use
+// Reason: The AuthService centralizes and standardizes all authentication-related tasks,
+//         including account creation, login, logout, and session management.
+// Why use: This structure promotes modularity, reducing repetition and making the app’s
+//          authentication system easy to maintain and scale.

@@ -77,7 +77,6 @@ export class Service {
   async getPost({ slug }) {
     try {
       return await this.databases.getDocument(
-        // Corrected to getDocument
         config.appwriteDatabaseId, // Database ID
         config.appwriteCollectionId, // Collection ID
         slug // Document ID
@@ -137,3 +136,9 @@ export class Service {
 const service = new Service();
 
 export default service;
+
+// Reason and Why Use
+// Reason: This Service class centralizes interactions with Appwrite’s Database and Storage,
+//         making database and file operations manageable from a single, reusable place.
+// Why use: It helps maintain clean code and supports scalability, enabling consistent
+//          and efficient integration with Appwrite across different components.
